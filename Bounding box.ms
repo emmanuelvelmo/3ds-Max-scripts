@@ -62,9 +62,9 @@ fn crear_bounding_box obj_seleccionado =
 -- INTERFAZ
 rollout ventana_bounding_box "Bounding Box"
 (
-    button btn_generar "Generate box" pos:[10,10] width:120 height:24
+    button btn_generar "Generate box" pos:[10,10] width:80 height:24
 
-    editText txt_resultado "" pos:[135,10] width:120 height:24 readOnly:true
+    editText txt_resultado "" pos:[100,10] width:100 height:24 readOnly:true
 
     -- Generar caja
     on btn_generar pressed do
@@ -94,4 +94,4 @@ try
 )
 catch()
 
-createDialog ventana_bounding_box 265 44
+createDialog ventana_bounding_box 210 44
