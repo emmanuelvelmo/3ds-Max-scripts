@@ -60,9 +60,9 @@ fn copiar_distancia =
 -- INTERFAZ
 rollout ventana_distancia "Vertex Distance"
 (
-    editText txt_distancia "" pos:[10,10] width:170 height:24 readOnly:true
+    editText txt_distancia "" pos:[10,10] width:100 height:24 readOnly:true
 
-    button btn_copiar "Copy" pos:[185,10] width:70 height:24
+    button btn_copiar "Copy" pos:[120,10] width:50 height:24
 
     timer temporizador_actualizacion interval:100 active:true
 
@@ -86,4 +86,4 @@ try
 )
 catch()
 
-createDialog ventana_distancia 265 44 style:#(#style_titlebar,#style_sysmenu,#style_toolwindow)
+createDialog ventana_distancia 180 44 style:#(#style_titlebar,#style_sysmenu,#style_toolwindow)
