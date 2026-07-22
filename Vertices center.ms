@@ -138,7 +138,7 @@ fn mover_objeto =
 
 -- INTERFAZ
 
-rollout ventana_centro_vertices "Vertex center"
+rollout ventana_centro_vertices "Vertices center"
 (
     button btn_capturar "Capture center" pos:[10,10] width:90 height:24
     button btn_mover "Move object" pos:[105,10] width:90 height:24
