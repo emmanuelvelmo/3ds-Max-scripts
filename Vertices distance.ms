@@ -58,7 +58,7 @@ fn copiar_distancia =
 )
 
 -- INTERFAZ
-rollout ventana_distancia "Vertex Distance"
+rollout ventana_distancia "Vertices Distance"
 (
     editText txt_distancia "" pos:[10,10] width:100 height:24 readOnly:true
 
