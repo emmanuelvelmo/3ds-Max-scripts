@@ -107,7 +107,7 @@ fn copiar_nombre_z =
 
 rollout ventana_object_name "Object name"
 (
-    button btn_generar "Generate names" pos:[10,10] width:300 height:24
+    button btn_generar "Generate names" pos:[10,10] width:260 height:24
 
     editText txt_x "" pos:[10,44] width:260 height:24 readOnly:true
     button btn_copiar_x "Copy" pos:[275,44] width:50 height:24
@@ -150,4 +150,5 @@ try
     destroyDialog ventana_object_name
 )
 catch()
+
 createDialog ventana_object_name 335 140 style:#(#style_titlebar,#style_sysmenu,#style_toolwindow)
